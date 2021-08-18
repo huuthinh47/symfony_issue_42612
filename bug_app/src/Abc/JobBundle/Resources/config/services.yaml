@@ -1,0 +1,8 @@
+parameters:
+    app.sales_order.clp_provider.class: App\JobBundle\Helper\ClpProvider
+
+services:
+    App\JobBundle\Helper\ClpProvider:
+        arguments:
+            $clpIndex: 'i am from src/Abc/JobBundle/Resources/config/services.yaml'
+

@@ -1,0 +1,4 @@
+abc_job:
+    path: /test
+    # the controller value has the format 'controller_class::method_name'
+    controller: App\JobBundle\Controller\DefaultController::index
