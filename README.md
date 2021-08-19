@@ -2,6 +2,7 @@
 
 ### Start Server
 ```php
+$cd bug_app
 $symfony server:start
 ```
 
